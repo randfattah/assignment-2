@@ -1,0 +1,42 @@
+#img_wrap {
+    float: left;
+    /*Aligns the image to the left */
+    margin-right: 15px;
+    /* Space between image and text */
+    width: 200px;
+    /* Adjust as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.text-contanier {
+    overflow: hidden;
+    /* Ensures it wraps around the floated image */
+
+}
+
+h1 {
+    color: red;
+    font-size: 36px;
+    /* Adjust font size as needed */
+    margin-top: 0;
+    /* Removes extra space above the heading */
+}
+
+p {
+    text-align: justify;
+    font-size: 25px;
+    margin: 0;
+    /* Removes extra margin below the paragraph */
+}
+
+hr {
+
+    margin-top: 20px;
+    /* Space before the line */
+    margin-bottom: 20px;
+    /* Space after the line */
+    clear: both;
+    /* Ensure the hr appears below floated elements*/
+
+}
